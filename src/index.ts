@@ -1,8 +1,8 @@
 import * as NodeTypes from "./nodes";
-import Node, { Visitor } from "./Node";
+import Node, { Visitor, NodeVisitor } from "./Node";
 import { parseSql } from "./parse";
 
-export { Node };
+export { Node, Visitor, NodeVisitor };
 export * from "./nodes";
 
 type Options<T> = {
