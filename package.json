@@ -8,7 +8,7 @@
     "format": "prettier --write --parser typescript  \"./**/*.{ts,tsx}\"",
     "build": "tsc --version && tsc --pretty",
     "build:watch": "npm run build -- --watch",
-    "prepare": "npm run build & npm run format"
+    "prepare": "npm run build && npm run format"
   },
   "author": "Ethan Resnick <ethan.resnick@gmail.com> (https://ethanresnick.com/)",
   "license": "ISC",
