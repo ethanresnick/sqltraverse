@@ -4,6 +4,7 @@ import { parseSql } from "./parse";
 
 export { Node, Visitor, NodeVisitor };
 export * from "./nodes";
+export * from "./parse";
 
 type Options<T> = {
   text: string;
