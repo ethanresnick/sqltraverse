@@ -246,7 +246,7 @@ export class JoinExpr extends Node {
 
 export class RangeVar extends Node {
   static toVisit = ["alias"];
-  public schemaname: string;
+  public schemaname?: string;
   public relname: string;
   public alias?: Alias;
 }
