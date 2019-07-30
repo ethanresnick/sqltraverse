@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es2017",
+        "strict": true,
+        "declaration": true,
+        "noImplicitAny": true,
+        "noUnusedLocals": true,
+        "strictNullChecks": true,
+        "strictPropertyInitialization": false,
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "sourceMap": true,
+        "outDir": "dist",
+        "lib": ["es2016", "es2017.object", "esnext.array"]
+    },
+    "include": ["src/**/*", "test/**/*"]
+}
