@@ -2,7 +2,8 @@ import * as NodeTypes from "./nodes";
 import Node, { Visitor } from "./Node";
 import { parseSql } from "./parse";
 
-export { NodeTypes, Node };
+export { Node };
+export * from "./nodes";
 
 type Options<T> = {
   text: string;
