@@ -30,7 +30,7 @@
     }
   },
   "devDependencies": {
-    "@ethanresnick/chai-jest-snapshot": "^2.3.0",
+    "@ethanresnick/chai-jest-snapshot": "^3.0.0",
     "@types/chai": "^4.1.7",
     "@types/expect": "^1.20.4",
     "@types/lodash": "^4.14.119",
